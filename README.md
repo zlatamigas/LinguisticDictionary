@@ -7,7 +7,7 @@ Linguistic dictionary for annotating texts and creating dictionaries with Stanfo
 ## Usage
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033489-aa2b9553-9209-474b-8244-81b31cf20255.png" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033489-aa2b9553-9209-474b-8244-81b31cf20255.png" width="100%" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Main menu</p>
 <br>
@@ -20,25 +20,25 @@ Linguistic dictionary for annotating texts and creating dictionaries with Stanfo
 <br>
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033515-e5bf90a2-f630-4fac-a99d-c1ca1aeefcb1.png" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033515-e5bf90a2-f630-4fac-a99d-c1ca1aeefcb1.png" width="100%" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Edit word</p>
 <br>
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033563-59dde665-f164-4cf2-84d7-ef220137fac3.png" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033563-59dde665-f164-4cf2-84d7-ef220137fac3.png" width="100%" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Edit dictionary</p>
 <br>
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033569-da20e341-8df8-42ab-871a-b65f029870d3.png" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033569-da20e341-8df8-42ab-871a-b65f029870d3.png" width="100%" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Search word in dictionary</p>
 <br>
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033589-1a55d1a8-1713-4a88-b072-f13af41faf3f.png" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033589-1a55d1a8-1713-4a88-b072-f13af41faf3f.png" width="100%" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Statistics</p>
 <br>
