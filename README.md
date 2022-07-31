@@ -1,4 +1,7 @@
-# <img src="https://user-images.githubusercontent.com/64004682/182033383-29cdf0d1-8603-4d6a-9b5d-8d2a08821748.png" alt="icon" width="30"/> LinguisticDictionary
+# LinguisticDictionary
+<p align="center">
+  <img alt="LinguisticDictionary" src="https://user-images.githubusercontent.com/64004682/182033383-29cdf0d1-8603-4d6a-9b5d-8d2a08821748.png" width="300"\>
+</p>
 
 ## Description
 
