@@ -13,8 +13,8 @@ Linguistic dictionary for annotating texts and creating dictionaries with Stanfo
 <br>
 
 <p align="center">
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033532-ac7a8de9-f14e-4ad3-a75b-7c88b07c8fd0.png" height="400" style="border-radius:10px"\></kbd> 
-  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033547-4090151b-3175-4eed-9889-7aa9e54bf86e.png" height="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033532-ac7a8de9-f14e-4ad3-a75b-7c88b07c8fd0.png" height="370" width="400" style="border-radius:10px"\></kbd> 
+  <kbd> <img alt="" src="https://user-images.githubusercontent.com/64004682/182033547-4090151b-3175-4eed-9889-7aa9e54bf86e.png" height="370" width="400" style="border-radius:10px"\></kbd> 
 </p>
 <p align="center">Annotated text</p>
 <br>
