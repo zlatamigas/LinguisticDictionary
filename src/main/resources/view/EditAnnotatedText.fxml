@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="425.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zlatamigas.linguisticdictionary.controller.EditAnnotatedTextController">
+   <top>
+      <MenuBar fx:id="menuBar" prefHeight="0.0" prefWidth="425.0" BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="Файл">
+               <items>
+                  <MenuItem fx:id="miSave" mnemonicParsing="false" onAction="#saveListener" text="Сохранить и выйти" />
+                  <MenuItem fx:id="miExit" mnemonicParsing="false" onAction="#exitListener" text="Выйти" />
+               </items>
+            </Menu>
+            <Menu fx:id="mWord" mnemonicParsing="false" text="Слово">
+              <items>
+                  <MenuItem fx:id="miChangeWord" mnemonicParsing="false" onAction="#changeWordListener" text="Изменить" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Справка">
+              <items>
+                <MenuItem fx:id="miTags" mnemonicParsing="false" onAction="#showTagInfoListener" text="Теги" />
+              </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TableView fx:id="tableM" editable="true" prefHeight="400.0" prefWidth="393.0" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn fx:id="tcWord" prefWidth="260.6667175292969" text="Слово" />
+            <TableColumn fx:id="tcTag" prefWidth="269.99993896484375" text="Тег" />
+         </columns>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </TableView>
+   </center>
+</BorderPane>

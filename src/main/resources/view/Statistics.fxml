@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zlatamigas.linguisticdictionary.controller.StatisticsController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Файл">
+            <items>
+              <MenuItem fx:id="miExit" mnemonicParsing="false" onAction="#exitListener" text="Выйти" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Справка">
+            <items>
+                  <MenuItem fx:id="miShowTexts" mnemonicParsing="false" onAction="#showTextsListener" text="Входящие в словарь тексты" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem fx:id="miTags" mnemonicParsing="false" onAction="#showTagInfoListener" text="Теги" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TableView fx:id="tvTable" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="tcValue1" editable="false" prefWidth="186.6666259765625" resizable="false" text="Элемент 1" />
+            <TableColumn fx:id="tcValue2" editable="false" minWidth="0.0" prefWidth="192.66671752929688" resizable="false" text="Элемент 2" />
+          <TableColumn fx:id="tcFreq" editable="false" maxWidth="250.0" minWidth="0.0" prefWidth="220.0" resizable="false" text="Абсолютная частота" />
+        </columns>
+      </TableView>
+   </center>
+   <bottom>
+      <ComboBox fx:id="cbTableType" prefHeight="25.0" prefWidth="628.0" visibleRowCount="5" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin></ComboBox>
+   </bottom>
+</BorderPane>

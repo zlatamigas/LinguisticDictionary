@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane hgap="30.0" vgap="10.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zlatamigas.linguisticdictionary.controller.MainMenuController">
+   <columnConstraints>
+      <ColumnConstraints halignment="RIGHT" hgrow="ALWAYS" maxWidth="210.0" minWidth="10.0" prefWidth="210.0" />
+      <ColumnConstraints halignment="LEFT" hgrow="ALWAYS" maxWidth="210.0" minWidth="10.0" prefWidth="210.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="78.33332824707031" minHeight="10.0" prefHeight="68.66666158040366" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="109.33331298828125" minHeight="10.0" prefHeight="55.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="100.00001525878906" minHeight="10.0" prefHeight="55.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="88.0" minHeight="10.0" prefHeight="55.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="84.66668701171875" minHeight="10.0" prefHeight="55.0" vgrow="ALWAYS" />
+      <RowConstraints maxHeight="84.66668701171875" minHeight="10.0" prefHeight="66.33333333333331" vgrow="ALWAYS" />
+   </rowConstraints>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <Button fx:id="btAnnAdd" mnemonicParsing="false" onAction="#annAddListener" prefHeight="76.0" prefWidth="247.0" text="Создать" textAlignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btAnnRead" alignment="CENTER" mnemonicParsing="false" onAction="#annOpenListener" prefHeight="75.0" prefWidth="226.0" text="Открыть" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS" />
+      <Label fx:id="lbTexts" alignment="CENTER" prefHeight="59.0" prefWidth="229.0" text="Тексты" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" />
+      <Label fx:id="lbDicts" alignment="CENTER" prefHeight="53.0" prefWidth="226.0" text="Словарь" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btDictAdd" mnemonicParsing="false" onAction="#dictAddListener" prefHeight="68.0" prefWidth="226.0" text="Создать" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btDictEdit" mnemonicParsing="false" onAction="#dictEditListener" prefHeight="81.0" prefWidth="362.0" text="Открыть" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btDictDelete" mnemonicParsing="false" onAction="#dictDeleteListener" prefHeight="99.0" prefWidth="339.0" text="Удалить" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btDictView" mnemonicParsing="false" onAction="#dictViewListener" prefHeight="72.0" prefWidth="231.0" text="Список" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btAnnView" mnemonicParsing="false" onAction="#annViewListener" prefHeight="104.0" prefWidth="301.0" text="Список" textAlignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btAnnDelete" mnemonicParsing="false" onAction="#annDeleteListener" prefHeight="89.0" prefWidth="209.0" text="Удалить" textAlignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS" />
+      <Button fx:id="btAnnStat" mnemonicParsing="false" onAction="#annStatistics" prefHeight="75.0" prefWidth="209.0" text="Статистика" textAlignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</GridPane>
