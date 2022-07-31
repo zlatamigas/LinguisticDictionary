@@ -5,7 +5,19 @@
 
 ## Description
 
-Linguistic dictionary for annotating texts and creating dictionaries with Stanford CoreNLP.
+LinguisticDictionary is a Windows app for annotating texts (with .txt extension) and creating dictionaries with natural language processing. 
+
+You can annotate texts and collect collect linguistic annotation statistics for them. 
+
+Annotated texts can be used to form dictionaries, which you can edit independently from texts: add new words, set tokens (tags) for them, remove existing words from dictionary, add new annotated text info and other dictionary info into edited dictionary. 
+
+For dictionary next statistics can be obtained:
+* absolute frequency of occurrence of a word (without tag);
+* absolute frequency of occurrence of each tag;
+* absolute frequency of occurrence of word_tag pair;
+* absolute frequency of occurrence of pairs of tags (next to each other).
+
+App interface is done in the Russian language. The application supports language processing in English. 
 
 ## Usage
 
